@@ -1,0 +1,60 @@
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    padding-left: 200px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+  }
+
+  .hero{
+    background-color: #1f2937;
+    display: flex;
+    
+    padding: 20px;
+    padding-left: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    justify-content: space-around;
+
+    gap:20px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+    font-size: 18px;
+    color: white;
+
+    margin-top: 5px;
+  }
+
+  .one{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 100px;
+    min-width: 300px;
+    
+  }
+
+  .image1{
+    height: 500px;
+    width: 500px;
+    min-width: 300px;
+    flex: 1;
+  }
+
+  .hero .one header{
+    font-size: 48px;
+    font-weight: 900;
+  }
+  
+  

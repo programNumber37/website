@@ -1,9 +1,16 @@
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 .header{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     align-items: center;
+  
+    padding: 20px;
     padding-left: 200px;
 }
 
@@ -18,43 +25,147 @@ ul {
   .hero{
     background-color: #1f2937;
     display: flex;
-    
-    padding: 20px;
-    padding-left: 200px;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    justify-content: space-around;
-
-    gap:20px;
     flex-wrap: wrap;
-    align-items: center;
     
-
+    padding-right: 100px;
+    padding-left: 200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+    
     font-size: 18px;
     color: white;
 
-    margin-top: 5px;
   }
 
   .one{
     display: flex;
-    flex: 1;
+    flex:1; 
     flex-direction: column;
-    padding: 100px;
-    min-width: 300px;
+    gap: 20px;
+    max-width: 50%;
+    
     
   }
 
-  .image1{
-    height: 500px;
-    width: 500px;
-    min-width: 300px;
-    flex: 1;
+  .two{
+    display: flex;
+    flex:1; 
+    max-width: 50%;
+    
+    justify-content: center;
+    align-items: center;
   }
 
+  .two .gg{
+    
+    height: auto;
+    }
+
   .hero .one header{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 48px;
     font-weight: 900;
   }
+
+
+
+  .information{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .information header{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-weight: 900;
+  }
+
+  .block{
+   display: flex;
+   margin-top: 50px;
+   gap: 40px;
+   flex-wrap: wrap;
+   
+   
+  }
+
+  .blocks{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 156px;
+    
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+
+  .blocks>img{
+    border-color: #0067f8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    align-items: center;
+    
+  }
+
+
+  .testimonial{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+
+  .p{
+    display: flex;
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+    height: fit-content;
+  }
+
+  .name{
+    display: flex;
+    justify-content: end;
+  }
+
+  .action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .actionIn{
+    background-color: #0067f8;
+    margin: 100px;
+    padding: 50px;
+    
+  }
+
+
+
+
+
+
+
   
   

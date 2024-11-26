@@ -151,16 +151,55 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
-  }
-
-  .actionIn{
-    background-color: #0067f8;
-    margin: 100px;
-    padding: 50px;
     
   }
 
+  .actionIn{
+    display: flex;
+    justify-content: flex-end;
+    
+    color: wheat;
+
+    background-color: #0067f8;
+    margin: 100px;
+    padding: 50px 150px;
+    border-radius: 9px;
+    
+    
+    
+  }
+
+  .button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .button2 button{
+    border-radius: 6px; /* Rounded corners */
+    outline: 2px solid #ffffff;
+    background-color: #0067f8;
+    height: 30px;
+    width: 90px;
+    color: wheat;
+    font-weight: 900;
+  }
+  
+  .text header{
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+ 
 
 
 

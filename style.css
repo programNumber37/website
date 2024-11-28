@@ -10,7 +10,7 @@ body{
     justify-content: space-between;
     align-items: center;
   
-    padding: 20px;
+    padding: 5px;
     padding-left: 200px;
 }
 
@@ -18,7 +18,9 @@ body{
 ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    margin-right: 160px;
+    color: white;
     
   }
 
@@ -47,6 +49,19 @@ ul {
     gap: 20px;
     max-width: 50%;
     
+  }
+
+  .one button{
+    display: flex;
+    border-radius: 7px; /* Rounded corners */
+    
+    background-color: #0067f8;
+    height: 35px;
+    width: 100px;
+    color: wheat;
+    font-weight: 900;
+    justify-content: center;
+    align-items: center;
     
   }
 
@@ -62,6 +77,7 @@ ul {
   .two .gg{
     
     height: auto;
+    
     }
 
   .hero .one header{
@@ -94,6 +110,7 @@ ul {
   .block{
    display: flex;
    margin-top: 50px;
+   margin-bottom: 100px;
    gap: 40px;
    flex-wrap: wrap;
    
@@ -145,6 +162,15 @@ ul {
   .name{
     display: flex;
     justify-content: end;
+    font-weight: 900;
+    font-size: 24px;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  p{
+    margin: 0;
+    padding: 0;
   }
 
   .action{
@@ -161,8 +187,8 @@ ul {
     color: wheat;
 
     background-color: #0067f8;
-    margin: 100px;
-    padding: 50px 150px;
+    margin: 80px;
+    padding: 30px 120px;
     border-radius: 9px;
     
     
@@ -179,7 +205,7 @@ ul {
   .text{
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    
   }
 
   .button2 button{
@@ -190,13 +216,28 @@ ul {
     width: 90px;
     color: wheat;
     font-weight: 900;
+    box-shadow: white;
   }
   
   .text header{
     font-weight: 900;
     font-size: 24px;
-    margin: 0px;
-    padding: 0px;
+    
+  }
+
+  .text p {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .end{
+    display: flex;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
   }
 
  
